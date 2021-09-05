@@ -1,6 +1,6 @@
 # What is this?
 
-[こちらの記事](TODO) で利用した成果物リポジトリ
+[こちらの記事](https://horizoon.jp/post/2021/09/05/s3_website_hosting/) で利用した成果物リポジトリ
 
 ## Requirements
 
@@ -16,7 +16,7 @@ v14.17.6
 ## Setup
 
 ```sh
-# 検証環境構築
+# variables.tf の project を任意で設定した上で、検証環境構築
 $ cd tf
 $ terraform init
 $ terraform plan

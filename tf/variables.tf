@@ -1,6 +1,5 @@
 variable "project" {
   type    = string
-  default = "website-s3-cloudfront-20210905"
 }
 
 variable "distribution_min_ttl" {

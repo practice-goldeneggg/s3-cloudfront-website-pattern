@@ -1,11 +1,11 @@
 {
-  "name": "vite2vue3ts4",
-  "version": "0.0.0",
+  "name": "s3-cloudfront-website-pattern",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "serve": "vite preview",
     "repl": "ts-node",
-    "build": "vue-tsc --noEmit && vite build && cp 403.html 404.html 50x.html dist/",
+    "build": "vue-tsc --noEmit && vite build && cp -r 403.html 404.html 50x.html subdir dist/",
     "clean": "rimraf dist/*",
     "s3:up": "aws s3 sync dist/ s3://BUCKET-NAME/",
     "deploy": "npm-run-all build s3:up"

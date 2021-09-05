@@ -119,7 +119,7 @@ resource "aws_cloudfront_distribution" "website" {
 
   origin {
     origin_id   = local.distribution_origin_website
-    domain_name = aws_s3_bucket.website.bucket_regional_domain_name
+    domain_name = aws_s3_bucket.website.website_endpoint  # サブフォルダのindexアクセスを機能させる為 website_endpoint を指定
 
     custom_origin_config {
       http_port              = 80

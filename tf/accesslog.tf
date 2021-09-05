@@ -9,6 +9,7 @@ locals {
 #----------
 resource "aws_s3_bucket" "access_log" {
   bucket = local.s3_bucket_accesslog
+  force_destroy = true
 
   acl = "log-delivery-write"
 
