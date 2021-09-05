@@ -1,6 +1,7 @@
 # What is this?
 
-[こちらの記事](https://horizoon.jp/post/2021/09/05/s3_website_hosting/) で利用した成果物リポジトリ
+[こちらの記事](https://horizoon.jp/post/2021/09/05/s3_website_hosting/) で利用した動作確認用のリポジトリです。
+※記事の補足のみが目的のリポジトリの為、内容不備以外でのメンテナンス予定はありません。
 
 ## Requirements
 
